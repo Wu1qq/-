@@ -1,6 +1,6 @@
 # 机器人配置
-BOT_TOKEN = "YOUR_BOT_TOKEN"
-BOT_USERNAME = "your_bot_username"
+BOT_TOKEN = "7705422054:AAGMnhyzZkYUdaUNih6pqdphQTpMoetkVIY"  # 您的实际 token
+BOT_USERNAME = "sulian20241bot"  # 您的实际机器人用户名
 
 # 聊天室配置
 MAX_ROOMS_PER_USER = 3  # 每个用户最多可创建的聊天室数量
