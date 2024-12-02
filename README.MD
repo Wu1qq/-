@@ -49,7 +49,8 @@
 
 1. 克隆仓库
 bash
-git clone https://github.com/your_username/telegram-service-bot.git
+git clone https://github.com/Wu1qq/telegram-service-bot.git
+
 cd telegram-service-bot
 
 2. 创建虚拟环境
