@@ -281,3 +281,16 @@ class MessageHandler:
         except Exception as e:
             logger.error(f"Failed to get file info: {e}")
             return None
+
+try:
+    import magic
+except ImportError:
+    import sys
+    if sys.platform == 'win32':
+        print("请安装 python-magic-bin")
+        # pip install python-magic-bin
+    else:
+        print("请安装 python-magic 和系统依赖")
+        # sudo apt-get install libmagic1
+        # pip install python-magic
+    raise

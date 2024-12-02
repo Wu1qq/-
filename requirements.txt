@@ -1,5 +1,11 @@
 python-telegram-bot==13.7
+APScheduler==3.6.3
 qrcode==7.3
 Pillow==9.0.0
-APScheduler==3.9.1
-python-magic==0.4.24 
+python-magic>=0.4.24; sys_platform != 'win32'
+python-magic-bin>=0.4.14; sys_platform == 'win32'
+urllib3==1.26.15
+certifi>=2023.7.22
+pytz>=2021.1
+PySocks==1.7.1
+python-socks[asyncio]>=2.0.0
